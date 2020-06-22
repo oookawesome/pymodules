@@ -18,8 +18,8 @@ class OCR:
 
 
 if __name__ == '__main__':
-    # path = 'resources/test_pdf1.pdf'
-    path = 'resources/test_image1.jpg'
+    # path = 'resources/sample1.pdf'
+    path = 'resources/image1.jpg'
     ocr = OCR()
     print(ocr.read(path))
 
